@@ -253,7 +253,6 @@ void loop() {
   display.printf("Temp: %.2f C\n", t);
   display.printf("Humidity: %.2f %%\n", h);
   display.printf("Sound: %s (%.1f%%)\n", micLabel, micPercent);
-  display.printf("D0: %s\n", soundDetected ? "DETECTED" : "Silent");
   display.printf("Occupancy: %d people\n", occupancyCount);
   display.printf("Fan: %s\n", fanOn ? "ON" : "OFF");
 
